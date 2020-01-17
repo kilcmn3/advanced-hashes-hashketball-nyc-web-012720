@@ -134,5 +134,7 @@ a = result_home.max_by{|key, value| value}
 b = result_away.max_by{|key, value| value}
 
    if a.last > b.last
+     home_player.collect do |key, value|
+     end
    end
 end
