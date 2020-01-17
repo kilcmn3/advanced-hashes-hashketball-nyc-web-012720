@@ -43,9 +43,7 @@ end
 
 def num_points_scored(name)
   result = 0
-  if game_hash[:home][:players].one? do|key, value|
-
-  end
+  if game_hash[:home][:players].one? {|key, value| key[:players_name]}
 
   end
 end
