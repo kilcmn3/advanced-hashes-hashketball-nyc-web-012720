@@ -92,8 +92,9 @@ def player_numbers(name)
   away_player = game_hash[:away]
 result = []
     if home_player[:team_name] == name
-      result << home_player[:players].select {|x|  x[:number] }
-      pp result
-    end
+       i = 0
+      while i < home_player[:players].length do
+          result << home_player[:players][i][:number]
+      end
 
 end
