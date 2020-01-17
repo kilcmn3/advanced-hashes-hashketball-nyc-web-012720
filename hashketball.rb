@@ -133,13 +133,13 @@ def big_shoe_rebounds
 a = result_home.max_by{|key, value| value}
 b = result_away.max_by{|key, value| value}
 
-   if a.last > b.last
-     home_player.collect do |key, value|
-       value == a.first ? home_player[:rebounds] : nil
-     end
-  elsif b.last > a.lst
-    away_player.collect do |key, value|
-      value == b.first ? away_player[:rebounds] : nil
+i = 0
+while i < home_player.length do
+  if home_player[i][:player_name] == name
+    return home_player[i][:points]
+  elsif away_player[i][:player_name] == name
+    return away_player[i][:points]
     end
-   end
+i += 1
+end
 end
