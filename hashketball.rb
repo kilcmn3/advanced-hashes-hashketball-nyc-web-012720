@@ -92,7 +92,7 @@ def player_numbers(name)
   away_player = game_hash[:away]
 
     if home_player[:team_name] == name
-      result = home_player[:players].find_all {|x| x[:number] > -1 }
+      result = home_player[:players].select {|x| x[:number] > -1 }
     end
 
 end
