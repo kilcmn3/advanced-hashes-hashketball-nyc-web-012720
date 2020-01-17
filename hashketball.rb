@@ -75,6 +75,6 @@ def team_colors(color)
   home_player = game_hash[:home]
   away_player = game_hash[:away]
 
-  home_player[:team_name] == name ? home_player[:colors] : away_player[:colors]
+  home_player[:team_name] == color ? home_player[:colors] : away_player[:colors]
 
 end
