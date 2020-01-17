@@ -71,7 +71,7 @@ def shoe_size(name)
     end
 end
 
-def team_colors(name)
+def team_colors(color)
   home_player = game_hash[:home]
   away_player = game_hash[:away]
 
