@@ -70,3 +70,6 @@ def shoe_size(name)
     i += 1
     end
 end
+
+def team_colors(name)
+end
