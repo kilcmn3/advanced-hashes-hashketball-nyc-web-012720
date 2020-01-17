@@ -83,7 +83,6 @@ def team_names
   result = []
  game_hash.each do |key, value|
    result = result.push(value[:team_names])
-   pp result
  end
 
 end
