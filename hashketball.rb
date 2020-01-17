@@ -56,7 +56,7 @@ away_player = game_hash[:away][:players]
   end
 end
 
-def shoe_size(size)
+def shoe_size(name)
   home_player = game_hash[:home][:players]
   away_player = game_hash[:away][:players]
 
