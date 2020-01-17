@@ -92,5 +92,5 @@ def player_numbers(name)
   away_player = game_hash[:away][:team_name]
 
     if home_player == name
-
+    end
 end
