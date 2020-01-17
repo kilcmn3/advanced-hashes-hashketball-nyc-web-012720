@@ -131,6 +131,6 @@ def big_shoe_rebounds
   result_away = Hash[away_player.collect {|x| [x[:shoe], x[:player_name]]}]
   final_result = result_home.merge(result_away)
   final_result.select do |key,value|
-    key.max 
+    key.max
   end
 end
