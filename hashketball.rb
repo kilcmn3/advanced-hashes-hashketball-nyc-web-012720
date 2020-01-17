@@ -42,7 +42,6 @@ def game_hash
 end
 
 def num_points_scored(name)
-  result = 0
 home_player = game_hash[:home][:players]
 away_player = game_hash[:away][:players]
 
