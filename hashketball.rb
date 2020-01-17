@@ -54,7 +54,6 @@ away_player = game_hash[:away][:players]
     else
       return nil
       end
-  end
   i += 1
   end
 end
