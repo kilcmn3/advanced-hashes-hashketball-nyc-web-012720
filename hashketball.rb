@@ -115,7 +115,7 @@ def player_stats(name)
       pp home_player[i].delete(:player_name)
           result["#{name}"] = home_player[i].delete(:player_name)
       elsif away_player[i][:player_name] == name
-          result[:name] = away_player[i].delete(:player_name)
+        result["#{name}"] = away_player[i].delete(:player_name)
         end
     i += 1
     end
