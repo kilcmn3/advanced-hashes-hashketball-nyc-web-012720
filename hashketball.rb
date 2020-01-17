@@ -104,7 +104,7 @@ i = 0
     result.sort
 end
 
-def player_stats
+def player_stats(name)
   home_player = game_hash[:home][:players]
   away_player = game_hash[:away][:players]
 
