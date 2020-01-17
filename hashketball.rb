@@ -80,6 +80,7 @@ def team_colors(color)
 end
 
 def team_names
+  count = 0
  game_hash.each do |key, value|
     return value[:team_name].length
  end
