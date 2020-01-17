@@ -130,5 +130,5 @@ def big_shoe_rebounds
 
   result_home = Hash[home_player.collect {|x| x[:player_name], [x[:shoe]]}]
   result_away = Hash[away_player.collect {|x| x[:player_name], [x[:shoe]]}]
-result_home.max{|key, value| value}
+puts result_home.max{|key, value| value}
 end
