@@ -126,7 +126,7 @@ end
 def big_shoe_rebounds
   home_player = game_hash[:home][:players]
   away_player = game_hash[:away][:players]
-
+  final_answer = nil
   result_home = Hash[home_player.collect {|x| [x[:shoe], x[:player_name]]}]
   result_away = Hash[away_player.collect {|x| [x[:shoe], x[:player_name]]}]
 pp  result_home.merge(result_home)
