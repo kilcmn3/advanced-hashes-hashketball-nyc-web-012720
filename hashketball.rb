@@ -138,5 +138,8 @@ b = result_away.max_by{|key, value| value}
        value == a.frist ? home_player[:rebounds] ? nil
      end
   elsif b.last > a.lst
+    away_player.collect do |key, value|
+      value == a.frist ?   away_player[:rebounds] ? nil
+    end
    end
 end
