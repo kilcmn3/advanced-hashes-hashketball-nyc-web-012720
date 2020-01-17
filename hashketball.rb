@@ -139,6 +139,7 @@ while i < home_player.length do
     pp home_player[i][:rebounds]
     return home_player[i][:rebounds]
   elsif away_player[i][:player_name] == name
+    pp away_player[i][:points]
     return away_player[i][:points]
     end
 i += 1
