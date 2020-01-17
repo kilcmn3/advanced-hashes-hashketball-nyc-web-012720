@@ -42,9 +42,5 @@ def game_hash
 end
 
 def num_points_scored(name)
-  game_hash.each do |key, value|
-    if [:home][:players].select{|key,value| [:player_name][value]} == name
-      return "!!!!!!!!!!!!!!!!!!!!!!"
-    end
-  end
+  if game_hash[:home][:players].select{|key, value| pp value}
 end
