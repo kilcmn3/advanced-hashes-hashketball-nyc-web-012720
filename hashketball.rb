@@ -94,7 +94,9 @@ def player_numbers(name)
 result = []
 i = 0
       while i < home_player[:players].length do
+        if home_player[:team_name] == name
           result << home_player[:players][i][:number]
+
       end
 
 end
