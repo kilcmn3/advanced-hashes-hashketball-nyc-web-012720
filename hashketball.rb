@@ -46,4 +46,10 @@ def num_points_scored(name)
 home_player = game_hash[:home][:players]
 away_player = game_hash[:away][:players]
 
+  i = 0
+  while i < home_player.length do
+    if home_player[i][player_name] == name
+  end
+
+  end
 end
