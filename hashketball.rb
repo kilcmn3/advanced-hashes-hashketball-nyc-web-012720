@@ -127,10 +127,8 @@ def big_shoe_rebounds
   home_player = game_hash[:home][:players]
   away_player = game_hash[:away][:players]
 
-  i = 0
-    while i < home_player.length do
-
-        end
-    i += 1
+  count1 = 0
+  count2 = 0
+  result_home = home_player.collect {|x| x[:shoe]}
     end
 end
