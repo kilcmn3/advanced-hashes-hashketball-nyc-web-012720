@@ -120,5 +120,5 @@ def player_stats(name)
         end
     i += 1
     end
-pp result
+ result
 end
