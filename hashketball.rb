@@ -113,7 +113,7 @@ def player_stats(name)
     while i < home_player.length do
       if home_player[i][:player_name] == name
 
-          result["#{name}"] = home_player[i].delete(:player_name)
+          result["#{name}"] = home_player[i]
       elsif away_player[i][:player_name] == name
           result["#{name}"] = away_player[i].delete(:player_name)
         end
