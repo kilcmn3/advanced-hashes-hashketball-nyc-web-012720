@@ -87,17 +87,8 @@ def team_names
   result
 end
 
-def player_numbers
+def player_numbers(name)
   home_player = game_hash[:home][:team_name]
   away_player = game_hash[:away][:team_name]
 
-    i = 0
-    while i < home_player.length do
-      if home_player[i][:player_name] == name
-        return home_player[i][:points]
-      elsif away_player[i][:player_name] == name
-        return away_player[i][:points]
-        end
-    i += 1
-    end
 end
