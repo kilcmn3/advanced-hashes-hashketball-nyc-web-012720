@@ -86,3 +86,6 @@ def team_names
  end
   result
 end
+
+def player_numbers
+end
