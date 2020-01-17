@@ -93,5 +93,6 @@ def player_numbers(name)
 
     if home_player[:team_name] == name
       result_1 =  home_player[:players].find_all {|x|  x[:number]  }
+      return result_1.sort
     end
 end
