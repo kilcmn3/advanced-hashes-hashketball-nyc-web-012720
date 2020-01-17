@@ -112,7 +112,7 @@ def player_stats(name)
     i = 0
     while i < home_player.length do
       if home_player[i][:player_name] == name
-
+          result[:name] = home_player[i].except(:player_name)
       elsif away_player[i][:player_name] == name
         return away_player[i][:points]
         end
