@@ -88,12 +88,12 @@ def team_names
 end
 
 def player_numbers(name)
-  # # home_player = game_hash[:home]
-  # # away_player = game_hash[:away]
-  # #
-  # #   if home_player[:team_name] == name
-  # #     result = home_player[:players].find_all {|x| x[:number] > -1 }
-  # #     pp result
-  # #   end
-  # pp name
+  # home_player = game_hash[:home]
+  # away_player = game_hash[:away]
+  #
+  #   if home_player[:team_name] == name
+  #     result = home_player[:players].find_all {|x| x[:number] > -1 }
+  #     pp result
+  #   end
+  pp name
 end
