@@ -100,4 +100,5 @@ i = 0
           result << away_player[:players][i][:number]
       end
       i += 1
+    end
 end
