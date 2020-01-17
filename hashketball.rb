@@ -41,7 +41,8 @@ def game_hash
 
 end
 
-if game_hash[:home][:players].select{|key, value| pp value}
 def num_points_scored(name)
+  if game_hash[:home][:players].select{|key, value| pp value}
+
   end
 end
