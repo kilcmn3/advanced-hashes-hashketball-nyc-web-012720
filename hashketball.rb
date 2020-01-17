@@ -130,6 +130,6 @@ def big_shoe_rebounds
   result_home = home_player.collect {|x| [x[:shoe], x[:player_name]}
   result_away = away_player.collect {|x| [x[:shoe], x[:player_name]}
 
-  result_home.max > result_away.max ?
+  pp result_home
 
 end
