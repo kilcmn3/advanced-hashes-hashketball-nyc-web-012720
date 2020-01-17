@@ -93,6 +93,7 @@ def player_numbers(name)
 result = []
     if home_player[:team_name] == name
       result = home_player[:players].select {|x| result << x[:number] }
+      pp result
     end
 
 end
