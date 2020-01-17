@@ -79,8 +79,8 @@ def team_colors(color)
 
 end
 
-def team_names(name)
+def team_names
  game_hash.each do |key, value|
-   pp value
+   pp
  end
 end
