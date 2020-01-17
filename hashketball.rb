@@ -130,6 +130,7 @@ def big_shoe_rebounds
   count1 = 0
   count2 = 0
   result_home = home_player.collect {|x| x[:shoe]}
-  pp result_home.max
+  result_away = away_player.collect {|x| x[:shoe]}
+  result_home.max
 
 end
