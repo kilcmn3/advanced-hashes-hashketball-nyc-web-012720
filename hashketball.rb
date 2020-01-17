@@ -56,6 +56,6 @@ away_player = game_hash[:away][:players]
           return away_player[i][:points]
       end
   end
-
+  i += 1
   end
 end
