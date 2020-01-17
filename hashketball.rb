@@ -48,11 +48,9 @@ away_player = game_hash[:away][:players]
   i = 0
   while i < home_player.length do
     if home_player[i][:player_name] == name
-      puts home_player[i][:points]
       return home_player[i][:points]
     elsif away_player[i][:player_name] == name
-        puts  away_player[i][:points]
-          return away_player[i][:points]
+      return away_player[i][:points]
       end
   end
   i += 1
