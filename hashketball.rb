@@ -90,5 +90,5 @@ end
 def player_numbers(name)
   home_player = game_hash[:home][:team_name]
   away_player = game_hash[:away][:team_name]
-
+ pp name
 end
