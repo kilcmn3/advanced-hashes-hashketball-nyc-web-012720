@@ -42,7 +42,7 @@ def game_hash
 end
 
 def num_points_scored(name)
-  game_hash[:home][:players].select{|key, value| pp key[:player_name]}
+  game_hash[:home][:players].select{|key, value| key[:player_name]}
 
 
 end
