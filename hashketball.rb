@@ -81,6 +81,6 @@ end
 
 def team_names
  game_hash.each do |key, value|
-   pp value
+  value[:team_name]
  end
 end
