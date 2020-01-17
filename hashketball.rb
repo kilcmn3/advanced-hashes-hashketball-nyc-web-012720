@@ -80,9 +80,6 @@ def team_colors(color)
 end
 
 def team_names(name)
-  home_player = game_hash[:home]
-  away_player = game_hash[:away]
-
-  home_player[:team_name] == color ? home_player[:colors] : away_player[:colors]
-
+ game_hash.each do |key, value|
+ end
 end
