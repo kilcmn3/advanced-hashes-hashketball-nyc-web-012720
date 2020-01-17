@@ -89,7 +89,7 @@ end
 
 def player_numbers(name)
   home_player = game_hash[:home][:players]
-  away_player = game_hash[:away]
+  away_player = game_hash[:away][:players]
 
 result = []
 i = 0
