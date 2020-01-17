@@ -51,8 +51,6 @@ away_player = game_hash[:away][:players]
       return home_player[i][:points]
     elsif away_player[i][:player_name] == name
       return away_player[i][:points]
-    else
-      return nil
       end
   i += 1
   end
