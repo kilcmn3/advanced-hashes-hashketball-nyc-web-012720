@@ -128,7 +128,7 @@ def big_shoe_rebounds
   away_player = game_hash[:away][:players]
 
   result = []
-    i = 0
+  i = 0
     while i < home_player.length do
 
         end
