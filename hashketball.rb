@@ -81,5 +81,6 @@ end
 
 def team_names(name)
  game_hash.each do |key, value|
+   pp value
  end
 end
