@@ -118,5 +118,5 @@ def player_stats(name)
         end
     i += 1
     end
-  end
+    result
 end
