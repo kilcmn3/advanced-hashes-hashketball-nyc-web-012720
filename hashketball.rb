@@ -128,7 +128,7 @@ def big_shoe_rebounds
   away_player = game_hash[:away][:players]
   final_answer = nil
 
-  result_home = Hash[home_player.collect {|x| x[:player_name], [x[:shoe]]}]
-  result_away = Hash[away_player.collect {|x| x[:player_name], [x[:shoe]]}]
+  result_home = Hash[home_player.collect {|x| [x[:player_name], x[:shoe]]}]
+  result_away = Hash[away_player.collect {|x| [x[:player_name], x[:shoe]]}]
 puts result_home.max{|key, value| value}
 end
