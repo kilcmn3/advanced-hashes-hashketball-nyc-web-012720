@@ -85,5 +85,5 @@ def team_names
 result = result.push(value[:team_names])
 
  end
-pp result
+pp result.length
 end
