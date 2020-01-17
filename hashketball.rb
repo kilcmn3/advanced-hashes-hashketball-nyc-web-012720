@@ -43,7 +43,8 @@ end
 
 def num_points_scored(name)
   result = 0
-honme_player = game_hash[:home][:players].one?
+home_player = game_hash[:home][:players]
+pp hom
 
   end
 end
