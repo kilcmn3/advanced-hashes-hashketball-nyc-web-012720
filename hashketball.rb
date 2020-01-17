@@ -136,7 +136,7 @@ b = result_away.max_by{|key, value| value}
 i = 0
 while i < home_player.length do
   if a.last > b.last
-    return home_player[i][:points]
+    return home_player[i][:rebounds]
   elsif away_player[i][:player_name] == name
     return away_player[i][:points]
     end
