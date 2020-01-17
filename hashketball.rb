@@ -138,7 +138,7 @@ while i < home_player.length do
   if name_found.first == home_player[i][:player_name]
     pp home_player[i][:rebounds]
     return home_player[i][:rebounds]
-  elsif away_player[i][:player_name] == name
+  elsif name_found.first == away_player[i][:player_name]
     pp away_player[i][:points]
     return away_player[i][:points]
     end
