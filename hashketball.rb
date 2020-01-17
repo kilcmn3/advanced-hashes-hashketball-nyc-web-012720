@@ -99,5 +99,5 @@ i = 0
         elsif away_player[:team_name] == name
           result << away_player[:players][i][:number]
       end
-
+      i += 1
 end
