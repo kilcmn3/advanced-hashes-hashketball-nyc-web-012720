@@ -129,7 +129,7 @@ def big_shoe_rebounds
 
     i = 0
     while i < home_player.length do
-      
+
         end
     i += 1
     end
