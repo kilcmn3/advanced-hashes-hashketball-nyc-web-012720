@@ -81,6 +81,6 @@ end
 
 def team_names
  game_hash.each do |key, value|
-    return value[:team_name]
+    return value[:team_name].length
  end
 end
