@@ -90,9 +90,9 @@ end
 def player_numbers(name)
   home_player = game_hash[:home]
   away_player = game_hash[:away]
-
+result = []
     if home_player[:team_name] == name
-      result = home_player[:players].select {|x| pp x[:number] }
+      result = home_player[:players].select {|x|  x[:number] }
     end
 
 end
