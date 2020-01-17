@@ -143,6 +143,3 @@ while i < home_player.length do
 i += 1
 end
 end
-
-def most_points_scored
-end
