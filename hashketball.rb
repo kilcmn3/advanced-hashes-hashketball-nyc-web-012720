@@ -132,5 +132,7 @@ def big_shoe_rebounds
   result_away = Hash[away_player.collect {|x| [x[:player_name], x[:shoe]]}]
 a = result_home.max_by{|key, value| value}
 b = result_away.max_by{|key, value| value}
-  a.last > b.last ? home_player[b.last]
+
+   if a.last > b.last
+   end
 end
