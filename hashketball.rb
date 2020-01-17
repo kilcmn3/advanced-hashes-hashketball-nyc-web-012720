@@ -131,7 +131,7 @@ def big_shoe_rebounds
   result_away = Hash[away_player.collect {|x| [x[:player_name], x[:shoe]]}]
 merge_two = result_home.merge(result_away)
 name_found = merge_two.max_by{|key,value| value}
-
+pp name_found.first
 
 i = 0
 while i < home_player.length do
